@@ -38,6 +38,7 @@ A quick reference of options
 
 * **key** - (*string*) An Amazon S3 credentials key
 * **secret** - (*string*) An Amazon S3 credentials secret
+* **token** - (*string*) An Amazon S3 session token in case you use AWS STS
 * **bucket** - (*string*) An Amazon S3 bucket
 * **region** - (*string*) An Amazon AWS region (see http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)
 * **maxOperations** - (*number*) max number of concurrent transfers - if set to 0, will be unlimited. Default: 20
